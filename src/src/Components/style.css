@@ -1,0 +1,43 @@
+.navlink{
+    color: wheat;
+    text-decoration: none;
+    position : relative;
+    overflow: hidden;
+  }
+.navlink:hover{
+    color: white;
+}
+.tutorialsList{
+    width: 65%;
+    padding: 30px;
+}
+td{
+    padding: 20px;
+}
+.details{
+    margin-left: 400px;
+}
+.list-group{
+    list-style-type: none;
+    width: 100%;
+}
+.list-group.li{
+    padding: 20px;
+}
+.removeAll{
+    margin-top: 10px;
+    left : 10px;
+}
+
+.forms{
+    width: 50%;
+    padding: 30px;
+}
+
+.buttons{
+    margin:10px;
+}
+
+
+
+
