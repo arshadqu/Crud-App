@@ -11,9 +11,15 @@
     width: 65%;
     padding: 30px;
 }
+td{
+    padding: 20px;
+}
+.details{
+    margin-left: 400px;
+}
 .list-group{
     list-style-type: none;
-    width: 55%;
+    width: 100%;
 }
 .list-group.li{
     padding: 20px;
@@ -28,11 +34,6 @@
     padding: 30px;
 }
 
-.details{
-    right : 0;
-    float: right;
-    margin-top: -213px;
-}
 .buttons{
     margin:10px;
 }

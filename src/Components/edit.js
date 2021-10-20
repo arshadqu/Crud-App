@@ -1,9 +1,13 @@
-import React, { Component, useState } from 'react';
+import React, { Component, useState , useContext } from 'react';
 import AddTutorials from './add';
 import data from './mock-data.json'
+import Tutorials from './tutorials';
+import { GlobalContext } from '../Context/GlobalState';
 const EditTutorials = () => {
     const [courses,setCourses] = useState(data);
     const[editCourseID, setEditCourseID] = useState(null);
+    const {users} = useContext(GlobalContext);
+    console.log(users);
         return(
             <div className="forms">
                 <form>
